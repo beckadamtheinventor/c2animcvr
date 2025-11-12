@@ -1,0 +1,13 @@
+
+for i=0; i<10; i=i+1;
+    hello = bor(2, 5);
+    hello = hello or -hello;
+    hello = hello - i;
+    if hello < 0;
+        hello = hello + i;
+        hello2 = hello;
+    end;
+end;
+
+output hello2 -> display:material._Value;
+

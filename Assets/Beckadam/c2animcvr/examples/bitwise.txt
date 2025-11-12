@@ -1,0 +1,18 @@
+
+valueA = 420;
+valueB = 1337;
+valueC = 6969;
+valueD = 7;
+
+valueAxorB = bxor(valueA, valueB);
+valueAorB  = bor(valueA, valueB);
+valueAandB = band(valueA, valueB);
+valueCshlD = shl(valueC, valueD);
+valueCshrD = shr(valueC, valueD);
+valueCrolD = rol(valueC, valueD);
+valueCrorD = ror(valueC, valueD);
+
+for I=0; I<32; I=I+1;
+    valueArolI = rol(valueA, I);
+end
+
